@@ -18,8 +18,8 @@
 
         /* Light Theme Variables */
         :root {
-            --bg-color: #f9f9f9;
-            --text-color: #333;
+            --bg-color: #f1ecec;
+            --text-color: #1d1a1a;
             --header-bg: #2c3e50;
             --header-text: white;
             --nav-bg: #3498db;
@@ -37,7 +37,7 @@
         [data-theme="dark"] {
             --bg-color: #1e1e1e;
             --text-color: #f5f5f5;
-            --header-bg: #121212;
+            --header-bg: #f7e4e4;
             --header-text: #f5f5f5;
             --nav-bg: #1e1e1e;
             --nav-text: #f5f5f5;
@@ -269,6 +269,13 @@
                 font-size: 1rem;
             }
         }
+        .log-a img{
+          height: 80px;
+          width: 80px;
+          float: left;
+          margin: 0;
+          border-radius: 50px;
+        }
     </style>
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -276,12 +283,15 @@
 <body>
 
     <header>
+        <div class="log-a">
+          <img src="image/IMG_20241107_204419.jpg"  alt="">
+        </div>
         <!-- Top Right Links and Theme Toggle -->
         <div class="top-links">
             <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
                 <i class="fab fa-linkedin"></i> LinkedIn
             </a>
-            <a href="https://github.com/your-github-profile" target="_blank">
+            <a href="https://github.com/jasimn" target="_blank">
                 <i class="fab fa-github"></i> GitHub
             </a>
             <a href="path/to/your/cv.pdf" download>
